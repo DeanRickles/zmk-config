@@ -13,7 +13,6 @@
 #include "../behaviors/soft-off.dtsi"
 #include "../behaviors/combos_34.dtsi"
 #include "../behaviors/mouse.dtsi"
-#include "../behaviors/hold-tap.dtsi"
 #include "../behaviors/macros.dtsi"
 #include "../behaviors/mod-morph.dtsi"
 
@@ -21,9 +20,9 @@ ZMK_LAYER(BASE,
 // ╭───────────┬───────────┬───────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬────────────┬────────────╮
      &kp Q       &kp W       &kp F       &kp P        &kp B          &kp J       &kp L         &kp U         &kp Y        &kp SQT
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-     &hml GL A   &hml AL R   &hml CL S   &hml SL T    &kp G          &kp M       &hmr SR N     &hmr CL E     &hmr AR I    &hmr GL O
+     &kp A       &kp R       &kp S       &kp T        &kp G          &kp M       &kp N         &kp E         &kp I        &kp O
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-     &kp Z       &kp X       &kp C       &kp D        &kp V          &kp K       &kp H         &kp COMMA     &kp DOT      &to SLASH
+     &kp Z       &kp X       &kp C       &kp D        &kp V          &kp K       &kp H         &kp COMMA     &kp DOT      &kp SLASH
 // ╰───────────┴───────────┴───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┴────────────┴────────────╯
                                          &mo NAV     &mt LS SPACE    &kp SPACE   &mo NUM
 //                                     ╰────────────┴────────────╯ ╰───────────┴─────────────╯
@@ -43,9 +42,9 @@ ZMK_LAYER(SYM,
 
 ZMK_LAYER(NAV,
 // ╭───────────┬───────────┬───────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬────────────┬────────────╮
-     &kp ESC    &soft_off    XXX         XXX          &kp INS        &kp PG_UP   &kp HOME      &kp UP        &kp END      &kp CAPS
+     &kp ESC     &soft_off   XXX         XXX          &kp INS        &kp PG_UP   &kp HOME      &kp UP        &kp END      &kp CAPS
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-     &sk AL      &sk GL       &sk SL     &sk CL       &sk AR         &kp PG_DN   &kp LEFT      &kp DOWN      &kp RIGHT    &kp DEL
+     &sk AL      &sk GL      &sk SL      &sk CL       &sk AR         &kp PG_DN   &kp LEFT      &kp DOWN      &kp RIGHT    &kp DEL
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp TAB      &kp LC(V)     &kp LC(BSPC) &kp BSPC      XXX           XXX          &kp PSCRN
 // ╰───────────┴───────────┴───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┴────────────┴────────────╯
@@ -85,6 +84,6 @@ ZMK_LAYER(Mouse,
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
      XXX         XXX         &kp AL      &kp CL       &kp SL         &kp SL      &kp CL        &kp AR        XXX          XXX
 // ╰───────────┴───────────┴───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┴────────────┴────────────╯
-                                         XXX          &mkp_lf        &mkp_rg         XXX
+                                         XXX          &mkp_lf        &mkp_rg     XXX
 //                                     ╰────────────┴────────────╯ ╰───────────┴─────────────╯
 )
