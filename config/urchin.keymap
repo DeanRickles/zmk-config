@@ -13,8 +13,6 @@
 #include "../behaviors/soft-off.dtsi"
 #include "../behaviors/combos_34.dtsi"
 #include "../behaviors/mouse.dtsi"
-#include "../behaviors/macros.dtsi"
-#include "../behaviors/mod-morph.dtsi"
 
 ZMK_LAYER(BASE,
 // ╭───────────┬───────────┬───────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬────────────┬────────────╮
