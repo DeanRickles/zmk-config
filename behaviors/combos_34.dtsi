@@ -17,4 +17,4 @@ ZMK_COMBO(move_sym, &mo SYM, LH0 LH1, COL)
 //ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
 
 // Outer thumbs
-ZMK_COMBO(toggle_mov, &tog MOV, LH1 RH1, COL MOV)
+ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, COL MOV)
