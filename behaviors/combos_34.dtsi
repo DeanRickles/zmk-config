@@ -1,20 +1,20 @@
 #include "./combos.dtsi"
 
-// NOTE: Only thumb keys are different between 34/36 layouts
+// NOTE: Only thumb keys are different between 34 layouts
 //       All other combos should be in ./combos.dtsi
 
 /***********************
   THUMBS
 ***********************/
 
-// Right thumbs, active on all alpha layers
-ZMK_COMBO(tab_33, &kp TAB, RH0 RH1, COL)
+// Right thumbs
+ZMK_COMBO(move_fnc, &mo FNC, RH0 RH1, COL)
 
-// Left thumbs, active on all alpha layers & NAV
-ZMK_COMBO(nav_toggle_34, &tog NAV, LH0 LH1, QWE COL ERG NAV)
+// Left thumbs
+ZMK_COMBO(move_sym, &mo SYM, LH0 LH1, COL)
 
-// Inner thumbs, active on base and Colemak layers
-ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
+// Inner thumbs
+//ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
 
-// Outer thumbs, active on base and Ergo-L layers
-ZMK_COMBO(ergol_34, &tog ERG, LH1 RH1, COL)
+// Outer thumbs
+ZMK_COMBO(toggle_mov, &tog MOV, LH1 RH1, COL MOV)
