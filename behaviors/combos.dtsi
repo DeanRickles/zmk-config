@@ -18,50 +18,50 @@
 ***********************/
 
 // CUT - Ctrl + X, active on base layer
-ZMK_COMBO(cut, &kp LC(X), LB3 LB4, QWE COL ERG)
+//ZMK_COMBO(cut, &kp LC(X), LB3 LB4, QWE COL ERG)
 
 // COPY - Ctrl + C, active on base layer
-ZMK_COMBO(copy, &kp LC(C), LB2 LB3, QWE COL ERG)
+//ZMK_COMBO(copy, &kp LC(C), LB2 LB3, QWE COL ERG)
 
 // PASTE - Ctrl + V, active on all layers
-ZMK_COMBO(paste, &kp LC(V), LB1 LB2, QWE COL ERG)
+//ZMK_COMBO(paste, &kp LC(V), LB1 LB2, QWE COL ERG)
 
 // PRINT SCREEN - PrintScreen, active on base layer
-ZMK_COMBO(printscreen, &kp PRINTSCREEN, RT3 RT4, QWE COL ERG)
+//ZMK_COMBO(printscreen, &kp PRINTSCREEN, RT3 RT4, QWE COL ERG)
 
 // CAPS WORD - Both HR Shifts, active on base & accent layers
-ZMK_COMBO(capsword, &caps_word, LM1 RM1, QWE QAC COL CAC ERG EAC)
+//ZMK_COMBO(capsword, &caps_word, LM1 RM1, QWE QAC COL CAC ERG EAC)
 
 // CAPS LOCK - Both HR Controls, active on base & accent layers
-ZMK_COMBO(capslock, &kp CAPSLOCK, LM2 RM2, QWE QAC COL CAC ERG EAC)
+//ZMK_COMBO(capslock, &kp CAPSLOCK, LM2 RM2, QWE QAC COL CAC ERG EAC)
 
 // TMUX Prefix - active on base layer
-ZMK_COMBO(tmux, &kp TMUX, LM2 LM3, QWE COL ERG, HR_TIMEOUT)
+//ZMK_COMBO(tmux, &kp TMUX, LM2 LM3, QWE COL ERG, HR_TIMEOUT)
 
 // TMUX Command - active on base layer
-ZMK_COMBO(tmux_cmd, &TMUX_CMD, LM2 LM3 RM4, QWE COL ERG, HR_TIMEOUT)
+//ZMK_COMBO(tmux_cmd, &TMUX_CMD, LM2 LM3 RM4, QWE COL ERG, HR_TIMEOUT)
 
 // TMUX New Session - active on base layer
-ZMK_COMBO(tmux_session, &TMUX_SESSION, LM2 LM3 LM4, QWE COL ERG, HR_TIMEOUT)
+//ZMK_COMBO(tmux_session, &TMUX_SESSION, LM2 LM3 LM4, QWE COL ERG, HR_TIMEOUT)
 
 // Toggle Mouse Layer - active on base and mouse layers
-ZMK_COMBO(toggle_mouse, &tog MOU, LT1 LT4, QWE MOU COL ERG)
+//ZMK_COMBO(toggle_mouse, &tog MOU, LT1 LT4, QWE MOU COL ERG)
 
 // Toggle Game Layer - active on base and game layer
-ZMK_COMBO(toggle_game, &tog GAM, RT1 RT4, QWE GAM COL ERG)
+//ZMK_COMBO(toggle_game, &tog GAM, RT1 RT4, QWE GAM COL ERG)
 
 /***********************
   SYMBOL LAYER
 ***********************/
 
 // FAT ARROW - Left index & middle fingers on home row, active on symbol layer
-ZMK_COMBO(fat_arrow, &FAT_ARROW, LM1 LM2, SYM)
+//ZMK_COMBO(fat_arrow, &FAT_ARROW, LM1 LM2, SYM)
 
 // THIN ARROW - Left index & middle fingers on bottom row, active on symbol layer
-ZMK_COMBO(arrow, &ARROW, LB1 LB2, SYM)
+//ZMK_COMBO(arrow, &ARROW, LB1 LB2, SYM)
 
 // Lesser than or Equal - active on symbol layer
-ZMK_COMBO(lte, &LTE, RB1 RB2, SYM)
+//ZMK_COMBO(lte, &LTE, RB1 RB2, SYM)
 
 // Greater than or Equal - active on symbol layer
-ZMK_COMBO(gte, &GTE, RB2 RB3, SYM)
+//ZMK_COMBO(gte, &GTE, RB2 RB3, SYM)

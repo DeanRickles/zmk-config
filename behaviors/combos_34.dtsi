@@ -7,20 +7,14 @@
   THUMBS
 ***********************/
 
-// TAB - Right thumbs, active on all alpha layers
-ZMK_COMBO(tab_34, &kp TAB, RH0 RH1, QWE COL ERG)
+// Right thumbs, active on all alpha layers
+ZMK_COMBO(tab_33, &kp TAB, RH0 RH1, COL)
 
-// Colemak/QWERTY - Inner thumbs, active on base and Colemak layers
-ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL QWE)
-
-// Colemak/Ergo-L - Outer thumbs, active on base and Ergo-L layers
-ZMK_COMBO(ergol_34, &tog ERG, LH1 RH1, COL ERG)
-
-// Ergo-L -> QWERTY - Inner thumbs, active on Ergo-L
-ZMK_COMBO(ergol_qwerty_34, &to QWE, LH0 RH0, ERG)
-
-// QWERTY -> Ergo-L - Outer thumbs, active on QWERTY
-ZMK_COMBO(qwerty_ergol_34, &to ERG, LH1 RH1, QWE)
-
-// NAV Toggle - Left thumbs, active on all alpha layers & NAV
+// Left thumbs, active on all alpha layers & NAV
 ZMK_COMBO(nav_toggle_34, &tog NAV, LH0 LH1, QWE COL ERG NAV)
+
+// Inner thumbs, active on base and Colemak layers
+ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
+
+// Outer thumbs, active on base and Ergo-L layers
+ZMK_COMBO(ergol_34, &tog ERG, LH1 RH1, COL)
