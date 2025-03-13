@@ -7,11 +7,10 @@
 // Layers
 // Must match order in which they are defined
 #define COL 0
-#define SYM 1
-#define NAV 2
-#define FNC 3
-#define NUM 4
-#define MOU 5
+#define MOU 1
+#define SYM 2
+#define NAV 3
+#define FNC 4
 
 // Modifier keys
 #define GL LGUI
@@ -27,6 +26,3 @@
 #define WINDOWS 0
 #define LINUX 1
 #define MAC_OS 2
-
-// Apps
-#define TMUX LC(LA(J)) // Tmux -> Ctrl + Alt + J
