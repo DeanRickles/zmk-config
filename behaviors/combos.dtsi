@@ -16,7 +16,7 @@
 ***********************/
 
 // Right thumbs
-ZMK_COMBO(move_fnc, &mo FNC, RH0 RH1, COL)
+//ZMK_COMBO(move_fnc, &mo FNC, RH0 RH1, COL)
 
 // Left THUMBS
 ZMK_COMBO(move_sym, &mo SYM, LH0 LH1, COL MOU)
