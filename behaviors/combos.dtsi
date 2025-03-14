@@ -16,13 +16,13 @@
 ***********************/
 
 // Right thumbs
-ZMK_COMBO(move_sym, &mo SYM, RH0 RH1, COL)
+ZMK_COMBO(move_fnc, &mo SYM, RH0 RH1, ALL)
 
 // Left THUMBS
-ZMK_COMBO(move_fnc, &mo FNC, LH0 LH1, COL MOU)
+ZMK_COMBO(move_sym, &mo FNC, LH0 LH1, ALL)
 
 // Inner thumbs
-//ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
+//ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, ALL)
 
 // Outer thumbs
 ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, COL MOU)
