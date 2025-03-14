@@ -9,7 +9,7 @@
 #define COL 0
 #define MOU 1
 #define NUM 2
-//#define SYM 3
+#define SYM 3
 //#define NAV 3
 //#define FNC 4
 

@@ -18,8 +18,9 @@
 // Right thumbs
 //ZMK_COMBO(move_fnc, &mo FNC, RH0 RH1, COL)
 
-// Left thumbs
+// Left THUMBS
 //ZMK_COMBO(move_sym, &mo SYM, LH0 LH1, COL MOU)
+
 
 // Inner thumbs
 //ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
