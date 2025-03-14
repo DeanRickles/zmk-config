@@ -11,7 +11,7 @@
 #define NUM 2
 #define SYM 3
 #define NAV 3
-//#define FNC 4
+#define FNC 4
 
 // Modifier keys
 #define GL LGUI
