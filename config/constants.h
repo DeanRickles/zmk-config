@@ -8,7 +8,7 @@
 // Must match order in which they are defined
 #define COL 0
 #define MOU 1
-//#define SYM 2
+#define SYM 2
 //#define NAV 3
 //#define FNC 4
 
