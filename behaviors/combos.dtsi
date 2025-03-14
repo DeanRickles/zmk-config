@@ -25,7 +25,7 @@
 //ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, COL)
 
 // Outer thumbs
-//ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, COL MOU)
+ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, COL MOU)
 
 /***********************
   BASE LAYER
