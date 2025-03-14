@@ -82,10 +82,8 @@ ZMK_LAYER(FNC,
 //     &sk AL      &sk GL      &sk SL      &sk CL      &kp C_BRI_DN    &kp F11     &kp F4        &kp F5        &kp F6       &kp SLCK
        XXX         XXX         XXX         XXX          XXX            XXX         XXX           XXX           XXX          XXX
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-//   &bootloader &kp C_VOL_UP &kp C_MUTE  &kp C_VOL_DN  XXX            &kp F10     &kp F1        &kp F2        &kp F3       &bootloader
-       XXX         XXX         XXX         XXX          XXX            XXX         XXX           XXX           XXX          XXX
+   &bootloader &kp C_VOL_UP &kp C_MUTE  &kp C_VOL_DN  XXX            &kp F10     &kp F1        &kp F2        &kp F3       &bootloader
 // ╰───────────┴───────────┴───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┴────────────┴────────────╯
-                                         XXX           XXX           XXX         XXX
-//                                         XXX          XXX            ___         &kp F0
+                                         XXX          XXX            ___         &kp F0
 //                                     ╰────────────┴────────────╯ ╰───────────┴─────────────╯
 )
