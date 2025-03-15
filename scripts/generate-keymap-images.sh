@@ -12,16 +12,11 @@ parse () {
         -z "$ROOT/config/$KBD_NAME".keymap >"$KMD/$KBD_NAME"_keymap.yaml \
         -l \
         "Colemak"\
-        "Colemak Accents"\
-        "QWERTY" \
-        "QWERTY Accents"\
-        "Ergo-L"\
-        "Ergo-L Accents"\
+        "Mouse"\
+        "Numbers"\
         "Symbols"\
         "Navigation"\
-        "Numbers"\
-        "Mouse"\
-        "Game"\
+        "Fuctions"\
         ; then
         echo "Keymap Parsed"
     else
