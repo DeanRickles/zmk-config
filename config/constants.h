@@ -28,7 +28,7 @@
 #define BTS1  &bt BT_SEL 1
 #define BTS2  &bt BT_SEL 2
 #define BTS3  &bt BT_SEL 3
-#define BTCLR bt BT_CLR
+#define BTCLR &bt BT_CLR
 
 // OS
 #define WINDOWS 0
