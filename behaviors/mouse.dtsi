@@ -1,6 +1,8 @@
 // Documentation : https://deploy-preview-778--zmk.netlify.app/docs/behaviors/mouse-emulation/
 // Codes : https://github.com/zmkfirmware/zmk/blob/ee855f4d6736da4d696e74f7875d209c7c173a11/app/include/dt-bindings/zmk/mouse.h
 
+ZKM_POINTING_DEFAULT_MOVE_VAL=1200 // Default 600 
+
 &mmv {
     acceleration-exponent=<1>;
     delay-ms=<30>;
