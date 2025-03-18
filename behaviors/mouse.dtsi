@@ -2,14 +2,14 @@
 // Codes : https://github.com/zmkfirmware/zmk/blob/ee855f4d6736da4d696e74f7875d209c7c173a11/app/include/dt-bindings/zmk/mouse.h
 
 &mmv {
-    acceleration-exponent=<0>;
-    delay-ms=<60>;
+    acceleration-exponent=<1>;
+    delay-ms=<30>;
     time-to-max-speed-ms = <200>;
 };
 
 &msc {
     acceleration-exponent=<1>;
-    delay-ms=<70>;
+    delay-ms=<30>;
     time-to-max-speed-ms = <200>;
 };
 
@@ -35,37 +35,16 @@
 #define MWU SCRL_UP
 #define MWD SCRL_DOWN
 
-// Switch move/scroll on Ploopy Nano by pressing NumLock twice
-ZMK_MACRO(mwh_tg, bindings =
-  <&macro_tap_time 1>,
-  <&macro_wait_time 18>,
-  <&kp KP_NUMLOCK &kp KP_NUMLOCK>;
-)
+//// Switch move/scroll on Ploopy Nano by pressing NumLock twice
+//ZMK_MACRO(mwh_tg, bindings =
+//  <&macro_tap_time 1>,
+//  <&macro_wait_time 18>,
+//  <&kp KP_NUMLOCK &kp KP_NUMLOCK>;
+//)
 
-// Cycle DPI presets on Ploopy Nano by pressing CapsLock twice
-ZMK_MACRO(mmv_dpi, bindings =
-  <&macro_tap_time 1>,
-  <&macro_wait_time 18>,
-  <&kp CAPSLOCK &kp CAPSLOCK>;
-)
-
-// Bootloader mode on Ploopy Nano by pressing CapsLock  twice
-ZMK_MACRO(mkp_boot, bindings =
-  <&macro_tap_time 1>,
-  <&macro_wait_time 10>,
-  <&macro_press &kp CAPSLOCK>,
-  <&kp KP_NUMLOCK &kp KP_NUMLOCK>,
-  <&macro_release &kp CAPSLOCK>;
-)
-
-// Mouse Left Click - Index and Middle finger of left hand, active on alpha layers
-//ZMK_COMBO(leftclick, &mkp LCLK, LT1 LT2, QWE COL ERG)
-
-// Mouse Right Click - Pinky and Ring finger of left hand, active on alpha layers
-//ZMK_COMBO(rightclick, &mkp RCLK, LT3 LT4, QWE COL ERG)
-
-// Mouse Scroll Toggle -  Middle and Ring finger of left hand, active on alpha layers
-//ZMK_COMBO(scrolltoggle, &mwh_tg, LT2 LT3, QWE COL ERG)
-
-// Enter QMK bootloader mode on ploopy nano - active on mouse layer
-//ZMK_COMBO(mouseboot, &mkp_boot, LT3 LT4, MOU)
+//// Cycle DPI presets on Ploopy Nano by pressing CapsLock twice
+//ZMK_MACRO(mmv_dpi, bindings =
+//  <&macro_tap_time 1>,
+//  <&macro_wait_time 18>,
+//  <&kp CAPSLOCK &kp CAPSLOCK>;
+//)
