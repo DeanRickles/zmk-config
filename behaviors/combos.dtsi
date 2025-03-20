@@ -15,17 +15,25 @@
   THUMBS
 ***********************/
 
-// Right thumbs
-//ZMK_COMBO(move_sym, &mo SYM, RH0 RH1, ALL)
-
 // Left THUMBS
 ZMK_COMBO(move_fnc, &mo FNC, LH1 LH0, ALL)
+
+// Right thumbs
+ZMK_COMBO(move_sym, &mo SYM, RH0 RH1, ALL)
 
 // Inner thumbs
 //ZMK_COMBO(qwerty_34, &tog QWE, LH0 RH0, ALL)
 
+// Mouse move
+//
 // Outer thumbs
-ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, ALL, 30)
+//ZMK_COMBO(toggle_mov, &tog MOU, LH1 RH1, ALL, 30)
+
+// Right Outer thumb + /
+//ZMK_COMBO(move_mov, &mo MOU, RH1 RB4, ALL)
+
+// Left Outer thumb + z
+//ZMK_COMBO(move_mov, &mo MOU, LH1 LB4, ALL)
 
 /***********************
   BASE LAYER
