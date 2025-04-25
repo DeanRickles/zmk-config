@@ -5,14 +5,16 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#include "constants.h"
-#define HOST_OS LINUX // Needed for unicode international_chars
-
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/34.h"
+
+#define HOST_OS LINUX // Needed for unicode international_chars
+#include "constants.h"
 #include "../behaviors/soft-off.dtsi"
 #include "../behaviors/combos.dtsi"
 #include "../behaviors/mouse.dtsi"
+
+
 
 ZMK_LAYER(COL,
 // ╭───────────┬───────────┬───────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬────────────┬────────────╮
