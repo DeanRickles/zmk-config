@@ -3,9 +3,8 @@
 ZMK firmware configuration for Urchin keyboards, optimized for
 English/Programming.
 
-![My Urchin 34 keys keyboard](images/urchin.jpg)
-
 TODO: Add image of keyboad here.
+![My Urchin 34 keys keyboard](images/urchin.jpg)
 
 
 ## Features
