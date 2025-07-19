@@ -1,15 +1,15 @@
 // Documentation : https://deploy-preview-778--zmk.netlify.app/docs/behaviors/mouse-emulation/
 // Codes : https://github.com/zmkfirmware/zmk/blob/ee855f4d6736da4d696e74f7875d209c7c173a11/app/include/dt-bindings/zmk/mouse.h
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000 // Default 600 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 4000 // Default 600 
 
 // --------------------------------------------------
 // Move cursor
 // --------------------------------------------------
 &mmv {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<1>;
     delay-ms=<10>;
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <500>;
 };
 
 // Mouse direction
@@ -27,9 +27,9 @@
 // Scroll wheel
 // --------------------------------------------------
 &msc {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<1>;
     delay-ms=<10>;
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <200>;
 };
 
 // scroll direction
