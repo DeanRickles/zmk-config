@@ -1,21 +1,17 @@
 manifest:
   remotes:
-    - name: urob
-      url-base: https://github.com/urob/
-    - name: gpeye
-      url-base: https://github.com/GPeye
     - name: DeanRickles
       url-base: https://github.com/DeanRickles
   projects:
-    - name: zmk
-      remote: urob
+    - name: zmk-base
+      remote: DeanRickles
       revision: main
       import: app/west.yml
     - name: zmk-helpers
-      remote: urob
+      remote: DeanRickles
       revision: main
     - name: urchin-peripheral-animation
-      remote: gpeye
+      remote: DeanRickles
       revision: main
   self:
     path: config
