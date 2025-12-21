@@ -3,7 +3,7 @@ manifest:
     - name: DeanRickles
       url-base: https://github.com/DeanRickles
   projects:
-    - name: zmk
+    - name: zmk-base
       remote: DeanRickles
       revision: main
       import: app/west.yml
