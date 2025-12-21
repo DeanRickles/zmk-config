@@ -15,7 +15,7 @@ manifest:
       remote: urob
       revision: main
     - name: urchin-peripheral-animation
-      remote: DeanRickles
+      remote: gpeye
       revision: main
   self:
     path: config
