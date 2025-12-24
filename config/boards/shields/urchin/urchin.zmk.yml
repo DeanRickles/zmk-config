@@ -2,7 +2,7 @@ file_format: "1"
 id: urchin
 name: urchin
 type: shield
-url: https://github.com/duckyb/urchin
+url: https://github.com/DeanRickles/urchin
 requires: [pro_micro]
 features:
   - keys
