@@ -9,69 +9,17 @@
 /* Timerless Home Row Mods */
 /* https://github.com/urob/zmk-config#timeless-homerow-mods */
 
-/* left-hand HRMs */
-ZMK_HOLD_TAP(hml,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    global-quick-tap;
-    bindings = <&kp>, <&kp>;
-    hold-trigger-key-positions = <KEYS_R THUMBS>;
-    hold-trigger-on-release;
+/* Usage: ZMK_HOLD_TAP(name, flavor, tapping_term, quick_tap, bindings)  */
+ZMK_HOLD_TAP(lt_kp,
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <150>;
+    bindings = <&lt>, <&kp>;
 )
 
-/* right-hand HRMs */
-ZMK_HOLD_TAP(hmr,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    global-quick-tap;
-    bindings = <&kp>, <&kp>;
-    hold-trigger-key-positions = <KEYS_L THUMBS>;
-    hold-trigger-on-release;
-)
-
-// homerow mods for è (Colemak)
-ZMK_HOLD_TAP(hrmeg,
-    flavor = "balanced";
-    tapping-term-ms = <hrm_tap_term>;
-    quick-tap-ms = <hrm_quick_tap>;
-    global-quick-tap;
-    bindings = <&kp>, <&E_GR_C>;
-)
-
-// homerow mods for î (Colemak)
-ZMK_HOLD_TAP(hrmic,
-    flavor = "balanced";
-    tapping-term-ms = <hrm_tap_term>;
-    quick-tap-ms = <hrm_quick_tap>;
-    global-quick-tap;
-    bindings = <&kp>, <&I_CI_C>;
-)
-
-// homerow mods for î (QWERTY)
-ZMK_HOLD_TAP(hrmiq,
-    flavor = "balanced";
-    tapping-term-ms = <hrm_tap_term>;
-    quick-tap-ms = <hrm_quick_tap>;
-    global-quick-tap;
-    bindings = <&kp>, <&I_CI_Q>;
-)
-
-// homerow mods for è (QWERTY)
-ZMK_HOLD_TAP(hrme,
-    flavor = "balanced";
-    tapping-term-ms = <hrm_tap_term>;
-    quick-tap-ms = <hrm_quick_tap>;
-    global-quick-tap;
-    bindings = <&kp>, <&E_GR_Q>;
-)
-
-// homerow mods for ê (Ergo-L)
-ZMK_HOLD_TAP(hrmec,
-    flavor = "balanced";
-    tapping-term-ms = <hrm_tap_term>;
-    quick-tap-ms = <hrm_quick_tap>;
-    global-quick-tap;
-    bindings = <&kp>, <&E_CI_E>;
+ZMK_HOLD_TAP(to_kp,
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <150>;
+    bindings = <&to>, <&kp>;
 )

@@ -7,9 +7,10 @@
   ALL LAYERS
 ***********************/
 
-// NOTE: Other mouse keys related combos in ./mouse.dtsi
-
-// NOTE: Soft off combos in ./soft-off.dtsi
+/*  NOTE: 
+          * Other mouse keys related combos in ./mouse.dtsi
+          * Soft off combos in ./soft-off.dtsi
+*/
 
 /***********************
   THUMBS
@@ -48,7 +49,7 @@ ZMK_COMBO(move_sym, &mo SYM, RH0 RH1, ALL)
 // PASTE - Ctrl + V, active on all layers
 //ZMK_COMBO(paste, &kp LC(V), LB1 LB2, QWE COL ERG)
 
-// PRINT SCREEN - PrintScreen, active on base layer
+// PRINT SCREEN  b- PrintScreen, active on base layer
 //ZMK_COMBO(printscreen, &kp PRINTSCREEN, RT3 RT4, QWE COL ERG)
 
 // CAPS WORD - Both HR Shifts, active on base & accent layers
