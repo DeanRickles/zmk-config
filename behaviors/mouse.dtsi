@@ -1,7 +1,7 @@
 // Documentation : https://deploy-preview-778--zmk.netlify.app/docs/behaviors/mouse-emulation/
 // Codes : https://github.com/zmkfirmware/zmk/blob/ee855f4d6736da4d696e74f7875d209c7c173a11/app/include/dt-bindings/zmk/mouse.h
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500 // Default 600 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500 // Default 600
 
 &mmv {
     acceleration-exponent=<2>;
@@ -15,38 +15,20 @@
     time-to-max-speed-ms = <200>;
 };
 
-// Move cursor
-#define mmv_lf mmv MOVE_LEFT
-#define mmv_rg mmv MOVE_RIGHT
-#define mmv_up mmv MOVE_UP
-#define mmv_dn mmv MOVE_DOWN
 
-// Mouse buttons
-#define mkp_lf mkp LCLK
-#define mkp_md mkp MCLK
-#define mkp_rg mkp RCLK
+// Move cursor
+#define MOU_MV_L mmv MOVE_LEFT
+#define MOU_MV_R mmv MOVE_RIGHT
+#define MOU_MV_U mmv MOVE_UP
+#define MOU_MV_D mmv MOVE_DOWN
+
+//MOUSE - Buttons
+#define MOU_CLK_L mkp LCLK
+#define MOU_CLK_M mkp MCLK
+#define MOU_CLK_R mkp RCLK
 
 // Scroll wheel
-#define mwh_lf msc SCRL_LEFT
-#define mwh_rg msc SCRL_RIGHT
-#define mwh_up msc SCRL_UP
-#define mwh_dn msc SCRL_DOWN
-
-#define MWL SCRL_LEFT
-#define MWR SCRL_RIGHT
-#define MWU SCRL_UP
-#define MWD SCRL_DOWN
-
-//// Switch move/scroll on Ploopy Nano by pressing NumLock twice
-//ZMK_MACRO(mwh_tg, bindings =
-//  <&macro_tap_time 1>,
-//  <&macro_wait_time 18>,
-//  <&kp KP_NUMLOCK &kp KP_NUMLOCK>;
-//)
-
-//// Cycle DPI presets on Ploopy Nano by pressing CapsLock twice
-//ZMK_MACRO(mmv_dpi, bindings =
-//  <&macro_tap_time 1>,
-//  <&macro_wait_time 18>,
-//  <&kp CAPSLOCK &kp CAPSLOCK>;
-//)
+#define SCRL_L msc SCRL_LEFT
+#define SCRL_R msc SCRL_RIGHT
+#define SCRL_U msc SCRL_UP
+#define SCRL_D msc SCRL_DOWN

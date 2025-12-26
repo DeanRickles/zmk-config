@@ -38,7 +38,7 @@
 #define BL        &bootloader
 #define SL_SPACE  &mt SL SPACE
 #define NUM_ENTER &lt NUM ENTER
-#define MOU_BSPC  &to_kp MOU BSPC
+#define MOU_BSPC  &lt MOU BSPC
 
 /*Custom keys - volume */
 #define VOL_U     &kp C_VOL_UP

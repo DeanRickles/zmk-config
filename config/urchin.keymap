@@ -11,7 +11,6 @@
 #define HOST_OS LINUX // Needed for unicode international_chars
 #include "constants.h"
 #include "../behaviors/soft-off.dtsi"
-#include "../behaviors/hold-tap.dtsi"
 #include "../behaviors/combos.dtsi"
 #include "../behaviors/mouse.dtsi"
 
@@ -31,13 +30,13 @@ ZMK_LAYER(COL,
 
 ZMK_LAYER(MOU,
 // ╭───────────┬───────────┬───────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬────────────┬────────────╮
-     XXX         XXX         &mwh_up     XXX          XXX            XXX         XXX           &mmv_up       XXX          XXX
+     XXX         XXX         &SCRL_U     XXX          XXX            XXX         XXX           &MOU_MV_U      XXX          XXX
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-     XXX         &mwh_lf     &mwh_dn     &mwh_rg      XXX            &mkp_rg     &mmv_lf       &mmv_dn       &mmv_rg      &mkp_lf
+     XXX         &SCRL_L      &SCRL_D    &SCRL_R       XXX          &MOU_CLK_R   &MOU_MV_L     &MOU_MV_D     &MOU_MV_R    &MOU_CLK_L
 // ├───────────┼───────────┼───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┼────────────┼────────────┤
-     XXX         XXX         &kp AL      &kp CL       &kp SL         &kp SL      &kp CL        &kp AR        XXX          &mkp_md
+     XXX         XXX         &kp AL      &kp CL       &kp SL         &kp SL      &kp CL        &kp AR        XXX          &MOU_CLK_M
 // ╰───────────┴───────────┴───────────┼────────────┼────────────┤ ├───────────┼─────────────┼─────────────┴────────────┴────────────╯
-                                         &mkp_lf      &mkp_rg        XXX         XXX
+                                         &MOU_CLK_L   &MOU_CLK_R     XXX         XXX
 //                                     ╰────────────┴────────────╯ ╰───────────┴─────────────╯
 )
 
