@@ -92,6 +92,10 @@
 #define _COMMA_ &kp COMMA  /* , */
 #define _QUOT_  &kp QUOT   /* ' */
 #define _SEMI_  &kp SEMI   /* ; */
+#define _LPAR_  &kp LPAR   /* ( */
+#define _RPAR_  &kp RPAR   /* ) */
+#define _LBRC_  &kp LBRC   /* { */
+#define _RBRC_  &kp LBRC   /* } */
 #define _LBKT_  &kp LBKT   /* [ */
 #define _RBKT_  &kp RBKT   /* ] */
 #define _MINUS_ &kp MINUS  /* - */
@@ -104,6 +108,15 @@
 #define _DLLR_  &kp DLLR   /* $ */
 #define _COLON_ &kp COLON  /* : */
 #define _QMARK_ &kp QMARK  /* ? */
+#define _PRCNT_ &kp PRCNT  /* % */
+#define _PND_   &kp LC(N3) /* £ */
+#define _PND_   &kp LC(N3) /* £ */
+#define _DQT_   &kp DQT    /*   */
+#define _EXCL_  &kp EXCL   /*   */
+#define _HASH_  &kp HASH   /* # */
+#define _TILDE_ &kp TILDE  /*   */
+#define _AMPS_  &kp AMPS   /*   */
+#define _CARET_ &kp CARET  /*   */
 
 /* Navidation */
 #define _UP_    &kp UP
@@ -126,6 +139,8 @@
 #define _BSPC_  &kp BSPC
 #define _LBSPC_ &kp LC(BSPC) /* Ctrl + backspace */
 #define _DEL_   &kp DEL
+#define _NLCK_  &kp LNLCK    /* number lock */
+
 #define _COPY_  &kp LC(C)
 #define _PASTE_ &kp LC(V)
 #define _CUT_   &kp LC(X)
