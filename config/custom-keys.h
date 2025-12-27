@@ -103,6 +103,7 @@
 #define _SQT_   &kp SQT    /* ' */
 #define _DLLR_  &kp DLLR   /* $ */
 #define _COLON_ &kp COLON  /* : */
+#define _QMARK_ &kp QMARK  /* ? */
 
 /* Navidation */
 #define _UP_    &kp UP
