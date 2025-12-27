@@ -11,17 +11,17 @@
 #define SR RSHFT
 
 /* Bluetooth keys */
-#define BTS0 &bt BT_SEL 0
-#define BTS1 &bt BT_SEL 1
-#define BTS2 &bt BT_SEL 2
-#define BTS3 &bt BT_SEL 3
+#define BTS0  &bt BT_SEL 0
+#define BTS1  &bt BT_SEL 1
+#define BTS2  &bt BT_SEL 2
+#define BTS3  &bt BT_SEL 3
 #define BTCLR &bt BT_CLR
 
 /* Custom keys */
-#define BL &bootloader
-#define SL_SPACE &mt SL SPACE
+#define BL        &bootloader
+#define SL_SPACE  &mt SL SPACE
 #define NUM_ENTER &lt NUM ENTER
-#define MOU_BSPC &lt MOU BSPC
+#define MOU_BSPC  &lt MOU BSPC
 
 /*Custom keys - volume */
 #define VOL_U &kp C_VOL_UP
@@ -72,60 +72,60 @@
 #define _9_ &kp N9
 
 /* Characters - Functions */
-#define _F1_ &kp F1
-#define _F2_ &kp F2
-#define _F3_ &kp F3
-#define _F4_ &kp F4
-#define _F5_ &kp F5
-#define _F6_ &kp F6
-#define _F7_ &kp F7
-#define _F8_ &kp F8
-#define _F9_ &kp F9
+#define _F1_  &kp F1
+#define _F2_  &kp F2
+#define _F3_  &kp F3
+#define _F4_  &kp F4
+#define _F5_  &kp F5
+#define _F6_  &kp F6
+#define _F7_  &kp F7
+#define _F8_  &kp F8
+#define _F9_  &kp F9
 #define _F10_ &kp F10
 #define _F11_ &kp F11
 #define _F12_ &kp F12
 
 /* Characters - Symbols */
-#define _SLASH_ &kp SLASH /* / */
-#define _BSLH_ &kp NUBS   /* \ */
-#define _DOT_ &kp DOT     /* . */
-#define _COMMA_ &kp COMMA /* , */
-#define _QUOT_ &kp QUOT   /* ' */
-#define _SEMI_ &kp SEMI   /* ; */
-#define _LBKT_ &kp LBKT   /* [ */
-#define _RBKT_ &kp RBKT   /* ] */
-#define _MINUS_ &kp MINUS /* - */
-#define _EQUAL_ &kp EQUAL /* = */
-#define _GRAVE_ &kp GRAVE /*   */
-#define _STAR_ &kp STAR   /* * */
-#define _PLUS_ &kp PLUS   /* + */
-#define _UNDER_ &kp UNDER /* _ */
-#define _SQT_ &kp SQT     /* ' */
-#define _DLLR_ &kp DLLR   /* $ */
-#define _COLON_ &kp COLON /* : */
+#define _SLASH_ &kp SLASH  /* / */
+#define _BSLH_  &kp NUBS   /* \ */
+#define _DOT_   &kp DOT    /* . */
+#define _COMMA_ &kp COMMA  /* , */
+#define _QUOT_  &kp QUOT   /* ' */
+#define _SEMI_  &kp SEMI   /* ; */
+#define _LBKT_  &kp LBKT   /* [ */
+#define _RBKT_  &kp RBKT   /* ] */
+#define _MINUS_ &kp MINUS  /* - */
+#define _EQUAL_ &kp EQUAL  /* = */
+#define _GRAVE_ &kp GRAVE  /*   */
+#define _STAR_  &kp STAR   /* * */
+#define _PLUS_  &kp PLUS   /* + */
+#define _UNDER_ &kp UNDER  /* _ */
+#define _SQT_   &kp SQT    /* ' */
+#define _DLLR_  &kp DLLR   /* $ */
+#define _COLON_ &kp COLON  /* : */
 
 /* Navidation */
-#define _UP_ &kp UP
-#define _DOWN_ &kp DOWN
-#define _LEFT_ &kp LEFT
+#define _UP_    &kp UP
+#define _DOWN_  &kp DOWN
+#define _LEFT_  &kp LEFT
 #define _RIGHT_ &kp RIGHT
-#define _HOME_ &kp HOME
-#define _END_ &kp END
+#define _HOME_  &kp HOME
+#define _END_   &kp END
 #define _PG_UP_ &kp PG_UP
 #define _PG_DN_ &kp PG_DN
 
 /* Utilities */
-#define _INS_ &kp INS
-#define _ESC_ &kp ESC
-#define _SLCK_ &kp SLCK
+#define _INS_   &kp INS
+#define _ESC_   &kp ESC
+#define _SLCK_  &kp SLCK
 #define _PSCRN_ &kp PSCRN
 #define _SPACE_ &kp SPACE
 #define _ENTER_ &kp ENTER
-#define _TAB_ &kp TAB
-#define _BSPC_ &kp BSPC
+#define _TAB_   &kp TAB
+#define _BSPC_  &kp BSPC
 #define _LBSPC_ &kp LC(BSPC) /* Ctrl + backspace */
-#define _DEL_ &kp DEL
-#define _COPY_ &kp LC(C)
+#define _DEL_   &kp DEL
+#define _COPY_  &kp LC(C)
 #define _PASTE_ &kp LC(V)
-#define _CUT_ &kp LC(X)
-#define _UNDO_ &kp LC(Z)
+#define _CUT_   &kp LC(X)
+#define _UNDO_  &kp LC(Z)
