@@ -8,9 +8,11 @@ TODO: Add image of keyboad here.
 
 ## Features
 
-- QWERTY, [Colemak-DH](https://colemakmods.github.io/mod-dh/)
-- Mouse keys support
-- Cursor/Scroll toggle, DPI cycling and bootloader mode keybindings
+- [Colemak-DH](https://colemakmods.github.io/mod-dh/)
+- Mouse keys support.
+- Cursor/Scroll toggle.
+- Nice formated constants.
+- bootloader mode keybindings.
 - Nice!View Urchin animation on right side of Urchin (credits: [GPeye](https://github.com/gpeye/urchin-peripheral-animation))
 
 ## Keymap
@@ -26,9 +28,9 @@ For more details, head to the [urchin.keymap](config/urchin.keymap)
 The keymap uses a few behaviors in order to make everything work:
 
 - [Combos](behaviors/combos.dtsi)
-- [Hold-Tap (Home Row Mods)](behaviors/hold-tap.dtsi)
-- [Macros](behaviors/macros.dtsi)
-- [Mod-Morph](behaviors/mod-morph.dtsi)
+- [NOT USED: Hold-Tap (Home Row Mods)](behaviors/hold-tap.dtsi)
+- [NOT USED: Macros](beuhaviors/macros.dtsi)
+- [NOT USED: Mod-Morph](behaviors/mod-morph.dtsi)
 
 ## References
 

@@ -1,6 +1,6 @@
 #pragma once
 
-/* Modifier keys */
+/* Modifier keys - base  */
 #define GL LGUI
 #define CL LCTRL
 #define AL LALT
@@ -10,6 +10,16 @@
 #define AR RALT
 #define SR RSHFT
 
+/* Modifier keys - STICKY. */
+#define _LALT_  &sk LALT
+#define _RALT_  &sk RALT
+#define _LSFT_  &sk LSHFT
+#define _RSFT_  &sk RSHFT
+#define _LCTL_  &sk LCTRL
+#define _RCTL_  &sk RCTRL
+#define _LGUI_  &sk LGUI
+#define _RGUI_  &sk RGUI
+
 /* Bluetooth keys */
 #define BTS0  &bt BT_SEL 0
 #define BTS1  &bt BT_SEL 1
@@ -17,21 +27,25 @@
 #define BTS3  &bt BT_SEL 3
 #define BTCLR &bt BT_CLR
 
-/* Custom keys */
-#define BL        &bootloader
-#define SL_SPACE  &mt SL SPACE
-#define NUM_ENTER &lt NUM ENTER
-#define MOU_BSPC  &lt MOU BSPC
+/* Navigation */
+#define _UP_    &kp UP
+#define _DOWN_  &kp DOWN
+#define _LEFT_  &kp LEFT
+#define _RIGHT_ &kp RIGHT
+#define _HOME_  &kp HOME
+#define _END_   &kp END
+#define _PG_UP_ &kp PG_UP
+#define _PG_DN_ &kp PG_DN
 
-/*Custom keys - volume */
+/* Volume */
 #define VOL_U &kp C_VOL_UP
 #define VOL_M &kp C_MUTE
 #define VOL_D &kp C_VOL_DN
-/*Custom keys - brightness */
+/* Brightness */
 #define BRI_U &kp C_BRI_UP
 #define BRI_D &kp C_BRI_DN
 
-/* Characters - Alpha */
+/* Alpha */
 #define _A_ &kp A
 #define _B_ &kp B
 #define _C_ &kp C
@@ -59,7 +73,7 @@
 #define _Y_ &kp Y
 #define _Z_ &kp Z
 
-/* Characters - Numbers */
+/* Numbers */
 #define _0_ &kp N0
 #define _1_ &kp N1
 #define _2_ &kp N2
@@ -71,7 +85,7 @@
 #define _8_ &kp N8
 #define _9_ &kp N9
 
-/* Characters - Functions */
+/* Functions */
 #define _F1_  &kp F1
 #define _F2_  &kp F2
 #define _F3_  &kp F3
@@ -85,7 +99,7 @@
 #define _F11_ &kp F11
 #define _F12_ &kp F12
 
-/* Characters - Symbols */
+/* Symbols - Not complete. */
 #define _SLASH_ &kp SLASH  /* / */
 #define _BSLH_  &kp NUBS   /* \ */
 #define _DOT_   &kp DOT    /* . */
@@ -95,12 +109,12 @@
 #define _LPAR_  &kp LPAR   /* ( */
 #define _RPAR_  &kp RPAR   /* ) */
 #define _LBRC_  &kp LBRC   /* { */
-#define _RBRC_  &kp LBRC   /* } */
+#define _RBRC_  &kp RBRC   /* } */
 #define _LBKT_  &kp LBKT   /* [ */
 #define _RBKT_  &kp RBKT   /* ] */
 #define _MINUS_ &kp MINUS  /* - */
 #define _EQUAL_ &kp EQUAL  /* = */
-#define _GRAVE_ &kp GRAVE  /*   */
+#define _GRAVE_ &kp GRAVE  /* ` */
 #define _STAR_  &kp STAR   /* * */
 #define _PLUS_  &kp PLUS   /* + */
 #define _UNDER_ &kp UNDER  /* _ */
@@ -111,22 +125,12 @@
 #define _PRCNT_ &kp PRCNT  /* % */
 #define _PND_   &kp LC(N3) /* £ */
 #define _PND_   &kp LC(N3) /* £ */
-#define _DQT_   &kp DQT    /*   */
-#define _EXCL_  &kp EXCL   /*   */
+#define _DQT_   &kp DQT    /* @ */
+#define _EXCL_  &kp EXCL   /* ! */
 #define _HASH_  &kp HASH   /* # */
-#define _TILDE_ &kp TILDE  /*   */
-#define _AMPS_  &kp AMPS   /*   */
-#define _CARET_ &kp CARET  /*   */
-
-/* Navidation */
-#define _UP_    &kp UP
-#define _DOWN_  &kp DOWN
-#define _LEFT_  &kp LEFT
-#define _RIGHT_ &kp RIGHT
-#define _HOME_  &kp HOME
-#define _END_   &kp END
-#define _PG_UP_ &kp PG_UP
-#define _PG_DN_ &kp PG_DN
+#define _TILDE_ &kp TILDE  /* ¬ */
+#define _AMPS_  &kp AMPS   /* & */
+#define _CARET_ &kp CARET  /* ^ */
 
 /* Utilities */
 #define _INS_   &kp INS
@@ -145,3 +149,10 @@
 #define _PASTE_ &kp LC(V)
 #define _CUT_   &kp LC(X)
 #define _UNDO_  &kp LC(Z)
+
+
+/* Custom keys */
+#define BL        &bootloader
+#define SL_SPACE  &mt SL SPACE
+#define NUM_ENTER &lt NUM ENTER
+#define MOU_BSPC  &lt MOU BSPC
